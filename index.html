@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Владимир Круглов — Data Engineer · Product Manager · Business Analyst</title>
-  <meta name="description" content="Владимир Круглов — специалист на стыке данных, продукта и аналитики: ETL на Python и SQL, PostgreSQL и Airflow, BPMN и требования, работа с ключевыми клиентами. Саратов, удалённо.">
+  <title>Владимир Круглов — Data Engineer · Ведущий аккаунт-менеджер · Бизнес-аналитик · Преподаватель</title>
+  <meta name="description" content="Владимир Круглов — 4 года в IT и 4 года преподавания: ETL на Python и SQL, PostgreSQL и Airflow, BPMN и требования, обучение пользователей и подростков программированию. Саратов, удалённо.">
   <meta name="author" content="Владимир Круглов">
-  <meta name="keywords" content="Data Engineer, Product Manager, Business Analyst, аналитик данных, SQL, Python, PostgreSQL, Airflow, BPMN, Jira, Confluence, Саратов, удалённо">
+  <meta name="keywords" content="Data Engineer, Ведущий аккаунт-менеджер, Бизнес-аналитик, Преподаватель, Код будущего, аналитик данных, SQL, Python, PostgreSQL, Airflow, BPMN, Jira, Confluence, Moodle, Саратов, удалённо">
   <link rel="canonical" href="https://vvkruglov.github.io/">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <meta name="theme-color" content="#0b1120">
@@ -14,16 +14,16 @@
 
   <meta property="og:type" content="profile">
   <meta property="og:locale" content="ru_RU">
-  <meta property="og:title" content="Владимир Круглов — Data Engineer · Product Manager · Business Analyst">
-  <meta property="og:description" content="Почти 8 лет в IT: ETL и SQL, модели данных, BPMN и требования, сопровождение ключевых клиентов. Открыт к предложениям, удалённо.">
+  <meta property="og:title" content="Владимир Круглов — Data Engineer · Ведущий аккаунт-менеджер · Бизнес-аналитик · Преподаватель">
+  <meta property="og:description" content="4 года в IT и 4 года преподавания: ETL и SQL, модели данных, BPMN и требования, обучение пользователей и подростков. Открыт к предложениям, удалённо.">
   <meta property="og:url" content="https://vvkruglov.github.io/">
   <meta property="og:image" content="https://vvkruglov.github.io/hh_ru_2.png">
   <meta property="og:image:alt" content="Владимир Круглов">
   <meta property="profile:first_name" content="Владимир">
   <meta property="profile:last_name" content="Круглов">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Владимир Круглов — Data Engineer · Product Manager · Business Analyst">
-  <meta name="twitter:description" content="Данные, продукт и аналитика: ETL, SQL, BPMN, работа с ключевыми клиентами.">
+  <meta name="twitter:title" content="Владимир Круглов — Data Engineer · Ведущий аккаунт-менеджер · Бизнес-аналитик · Преподаватель">
+  <meta name="twitter:description" content="Данные, клиенты и обучение: ETL, SQL, BPMN, преподавание программирования подросткам.">
   <meta name="twitter:image" content="https://vvkruglov.github.io/hh_ru_2.png">
 
   <script type="application/ld+json">
@@ -35,14 +35,14 @@
     "image": "https://vvkruglov.github.io/hh_ru_2.png",
     "email": "mailto:vvkruglov97@yandex.ru",
     "telephone": "+7-900-310-90-71",
-    "jobTitle": ["Data Engineer", "Product Manager", "Business Analyst"],
+    "jobTitle": ["Data Engineer", "Ведущий аккаунт-менеджер", "Бизнес-аналитик", "Преподаватель"],
     "address": { "@type": "PostalAddress", "addressLocality": "Саратов", "addressCountry": "RU" },
     "sameAs": ["https://github.com/VVKruglov", "https://t.me/vv_kruglov"],
     "alumniOf": [
       { "@type": "CollegeOrUniversity", "name": "СГТУ имени Гагарина Ю.А." },
       { "@type": "CollegeOrUniversity", "name": "СГУ имени Н.Г. Чернышевского" }
     ],
-    "knowsAbout": ["Python", "SQL", "PostgreSQL", "Apache Airflow", "ETL", "BPMN", "Product Management", "Business Analysis"],
+    "knowsAbout": ["Python", "SQL", "PostgreSQL", "Apache Airflow", "ETL", "BPMN", "Business Analysis", "LMS Moodle", "Обучение и развитие"],
     "knowsLanguage": [
       { "@type": "Language", "name": "Русский" },
       { "@type": "Language", "name": "Английский" }
@@ -343,6 +343,7 @@
     .role-pill:nth-child(1) { border-color: rgba(124, 156, 255, .45); }
     .role-pill:nth-child(2) { border-color: rgba(62, 224, 200, .4); }
     .role-pill:nth-child(3) { border-color: rgba(192, 132, 252, .4); }
+    .role-pill:nth-child(4) { border-color: rgba(250, 204, 130, .45); }
 
     .lede {
       margin-top: 22px;
@@ -646,7 +647,7 @@
 
     .skill-grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 16px;
     }
     .skill-card {
@@ -843,6 +844,20 @@
 
     @media (max-width: 860px) {
       .nav-links { display: none; }
+      .tabs {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 100%;
+        gap: 4px;
+        border-radius: 18px;
+        overflow: visible;
+      }
+      .tab {
+        border-radius: 14px;
+        padding: 10px 12px;
+        white-space: normal;
+        line-height: 1.25;
+      }
     }
 
     @media (max-width: 760px) {
@@ -866,18 +881,18 @@
       .hero h1 { font-size: clamp(2.2rem, 11vw, 3rem); }
       .stats { grid-template-columns: 1fr; }
       .stat { padding: 20px 22px; }
-      .float-card { right: 0; padding: 10px 13px; }
-      .tabs {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        width: 100%;
-        gap: 4px;
+      .float-card {
+        right: auto;
+        left: 0;
+        bottom: 12px;
+        width: max-content;
+        max-width: calc(100vw - 48px);
+        padding: 10px 14px;
       }
       .tab {
-        padding: 9px 7px;
+        padding: 9px 8px;
         font-size: .82rem;
         line-height: 1.2;
-        white-space: normal;
       }
     }
 
@@ -897,32 +912,32 @@
     .print-contacts b { color: #111; }
 
     @media print {
-      @page { margin: 12mm 14mm; }
-      html, body { background: #fff !important; color: #111 !important; font-size: 10.5pt; line-height: 1.45; }
+      @page { margin: 10mm 12mm; }
+      html, body { background: #fff !important; color: #111 !important; font-size: 10pt; line-height: 1.42; }
       body::before { display: none !important; }
       .nav, .cta, .float-card, .toast, footer, .tabs, .btn, .icon-btn, .tags, .project .link, #contact { display: none !important; }
       .print-only { display: inline-flex !important; }
-      .print-contacts { display: block !important; }
+      .print-contacts { display: block !important; margin-top: 8px; font-size: 9pt; }
       .wrap { width: 100%; }
 
-      section { padding: 10px 0; }
-      .sec-head { margin-bottom: 10px; break-after: avoid; break-inside: avoid; }
-      .sec-head h2 { font-size: 15pt; break-after: avoid; }
-      .sec-head p { margin-top: 6px; font-size: 9.5pt; }
+      section { padding: 4px 0; }
+      .sec-head { margin-bottom: 6px; break-after: avoid; break-inside: avoid; }
+      .sec-head h2 { font-size: 14pt; break-after: avoid; }
+      .sec-head p { margin-top: 4px; font-size: 9pt; }
       .eyebrow { display: none !important; }
 
-      .hero { grid-template-columns: 1fr 84px; gap: 18px; padding: 0 0 6px; align-items: start; }
-      .hero-media { order: 0; width: 84px; justify-self: end; }
-      .status { margin-bottom: 10px; font-size: 8.5pt; padding: 3px 9px; }
-      .hero h1 { font-size: 23pt; }
-      .hero-roles { margin-top: 8px; gap: 5px; }
-      .role-pill { font-size: 8.5pt; padding: 3px 9px; }
-      .lede { margin-top: 10px; font-size: 9.8pt; max-width: none; }
-      .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px 18px; margin-top: 12px; padding-top: 10px; }
-      .facts dt { font-size: 7pt; }
-      .facts dd { font-size: 9pt; }
-      .portrait { box-shadow: none; border-radius: 14px; padding: 0; background: none; }
-      .portrait img { width: 84px; height: 84px; aspect-ratio: 1; object-fit: cover; border-radius: 14px; }
+      .hero { grid-template-columns: 1fr 80px; gap: 16px; padding: 0 0 4px; align-items: start; }
+      .hero-media { order: 0; width: 80px; justify-self: end; }
+      .status { margin-bottom: 5px; font-size: 8pt; padding: 2px 8px; }
+      .hero h1 { font-size: 21pt; }
+      .hero-roles { margin-top: 6px; gap: 4px; }
+      .role-pill { font-size: 8pt; padding: 2px 8px; }
+      .lede { margin-top: 6px; font-size: 9.3pt; max-width: none; }
+      .facts { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 4px 18px; margin-top: 7px; padding-top: 7px; }
+      .facts dt { font-size: 6.6pt; }
+      .facts dd { font-size: 8.6pt; }
+      .portrait { box-shadow: none; border-radius: 12px; padding: 0; background: none; }
+      .portrait img { width: 80px; height: 80px; aspect-ratio: 1; object-fit: cover; border-radius: 12px; }
 
       .grad, .stat b {
         color: #111 !important;
@@ -940,50 +955,58 @@
         box-shadow: none !important;
         break-inside: avoid;
       }
-      .role-panel { display: grid !important; grid-template-columns: 1.25fr .75fr; gap: 18px; padding: 12px 16px; margin-top: 10px; }
+      .role-panel { display: grid !important; grid-template-columns: 1.25fr .75fr; gap: 16px; padding: 10px 14px; margin-top: 8px; }
       .role-panel[hidden] { display: none !important; }
-      .role-panel h3 { font-size: 11.5pt; }
-      .role-panel > div > p { font-size: 9.5pt; }
-      .checks { margin-top: 10px; gap: 5px; }
-      .checks li { font-size: 9.3pt; padding-left: 22px; }
-      .aside-card { padding: 10px 12px; }
-      .aside-note { margin-top: 8px; font-size: 8pt; }
+      .role-panel h3 { font-size: 11pt; margin-bottom: 8px; }
+      .role-panel > div > p { font-size: 9.2pt; }
+      .checks { margin-top: 8px; gap: 4px; }
+      .checks li { font-size: 8.9pt; padding-left: 20px; }
+      .aside-card { padding: 9px 11px; }
+      .aside-note { margin-top: 6px; font-size: 7.8pt; }
 
       .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
-      .stat { padding: 8px 10px; }
-      .stat b { font-size: 13pt; }
-      .stat span { font-size: 7.5pt; }
+      .stat { padding: 6px 9px; }
+      .stat b { font-size: 12pt; }
+      .stat span { font-size: 7.2pt; }
 
-      .timeline { gap: 8px; }
+      .timeline { display: block; gap: 6px; }
       .timeline::before { display: none; }
-      .job { padding: 10px 12px 10px 24px; }
-      .job::before { top: 16px; left: 2px; }
-      .job h3 { font-size: 10.5pt; }
-      .job .role { font-size: 8.5pt; }
-      .job .when { font-size: 7.5pt; }
-      .job ul { margin-top: 6px; gap: 3px; }
-      .job li { font-size: 9.2pt; }
+      .job + .job { margin-top: 6px; }
+      .job { padding: 8px 11px 8px 22px; }
+      .job::before { top: 14px; left: 2px; }
+      .job h3 { font-size: 10pt; }
+      .job .role { font-size: 8.3pt; }
+      .job .when { font-size: 7.2pt; }
+      .job ul { margin-top: 5px; gap: 2px; }
+      .job li { font-size: 8.9pt; }
 
-      .skill-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-      .skill-card { padding: 10px 12px; }
-      .skill-card h3 { font-size: 9.5pt; margin-bottom: 8px; }
-      .chip { font-size: 7.5pt; padding: 2px 7px; border-color: #d5d9e0 !important; background: #f6f7f9 !important; color: #222 !important; }
-      .langs { margin-top: 8px; }
-      .lang { font-size: 8.5pt; padding-bottom: 5px; }
+      .skill-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+      .skill-card { padding: 6px 9px; }
+      .skill-card h3 { font-size: 8.8pt; margin-bottom: 5px; }
+      .chip { font-size: 6.8pt; padding: 1px 5px; border-color: #d5d9e0 !important; background: #f6f7f9 !important; color: #222 !important; }
+      .langs { margin-top: 5px; }
+      .lang { font-size: 8pt; padding-bottom: 3px; }
 
-      .projects { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
-      .project { padding: 10px 12px; gap: 6px; }
-      .project h3 { font-size: 10pt; }
-      .project p { font-size: 8.6pt; }
-      .project .kicker { font-size: 6.5pt; }
+      .projects { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
+      .project { padding: 6px 9px; gap: 3px; }
+      .project h3 { font-size: 9.2pt; }
+      .project p { font-size: 7.9pt; }
+      .project .kicker { font-size: 6pt; }
 
-      .edu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-      .edu { padding: 10px 12px; }
-      .edu h3 { font-size: 9.5pt; }
-      .edu p { font-size: 8.5pt; }
-      .courses { margin-top: 8px; gap: 4px; }
-      .course { padding: 6px 10px; font-size: 8.6pt; }
-      .course .year { font-size: 8pt; }
+      .edu-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; }
+      .edu { padding: 6px 9px; }
+      .edu h3 { font-size: 8.8pt; }
+      .edu p { font-size: 7.9pt; }
+      .courses { margin-top: 5px; gap: 2px; }
+      .course {
+        display: block;
+        position: relative;
+        padding: 3px 56px 3px 8px;
+        font-size: 7.8pt;
+      }
+      .course span { color: #444 !important; }
+      .course span:not(.year)::before { content: " · "; }
+      .course .year { position: absolute; right: 8px; top: 4px; font-size: 7.4pt; }
 
       .contact-card { padding: 14px 18px; }
       .contact-card h2 { font-size: 16pt; }
@@ -1030,13 +1053,15 @@
         <h1>Владимир <span class="grad">Круглов</span></h1>
         <div class="hero-roles" aria-label="Профессиональные роли">
           <span class="role-pill">Data Engineer</span>
-          <span class="role-pill">Product Manager</span>
-          <span class="role-pill">Business Analyst</span>
+          <span class="role-pill">Ведущий аккаунт-менеджер</span>
+          <span class="role-pill">Бизнес-аналитик</span>
+          <span class="role-pill">Преподаватель</span>
         </div>
         <p class="lede">
-          Почти <strong>8 лет в IT</strong>: обучаю пользователей сложной цифровой платформы,
+          <strong>4 года в IT</strong>: обучаю пользователей сложной цифровой платформы,
           собираю ETL-пайплайны на Python и SQL и перевожу бизнес-требования на язык разработки.
-          Ищу роль, где одинаково важны данные, продукт и люди.
+          До этого <strong>4 года преподавал историю</strong>, а сейчас учу подростков
+          программированию по программе «Код будущего».
         </p>
         <p class="print-contacts">
           <b>vvkruglov97@yandex.ru</b> · +7 900 310-90-71 · t.me/vv_kruglov · github.com/VVKruglov
@@ -1062,7 +1087,7 @@
           </div>
           <div>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19V5"/><path d="M4 19h16"/><path d="m8 15 4-5 3 3 4-6"/></svg>
-            <div><dt>Опыт</dt><dd>7 лет 11 месяцев</dd></div>
+            <div><dt>Опыт</dt><dd>4 года в IT · 4 года преподавания</dd></div>
           </div>
           <div>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 4 9 5-9 5-9-5 9-5Z"/><path d="M6 11v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg>
@@ -1081,7 +1106,7 @@
         </div>
         <div class="float-card" aria-hidden="true">
           <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent-2)"><path d="M21 12a9 9 0 1 1-9-9"/><path d="M21 3v6h-6"/><path d="M12 7v5l3 2"/></svg>
-          <div><b>8 лет</b><small>в IT и обучении</small></div>
+          <div><b>4 года</b><small>в IT · ещё 4 года преподавания</small></div>
         </div>
       </div>
     </section>
@@ -1089,14 +1114,15 @@
     <section class="wrap reveal" id="about">
       <div class="sec-head">
         <span class="eyebrow">О себе</span>
-        <h2>Три роли — одна логика</h2>
-        <p>Начинал с обучения пользователей и сопровождения ключевых клиентов, затем добавил инженерию данных и магистратуру по ИИ. Выберите роль — покажу, что уже умею именно в ней.</p>
+        <h2>Четыре роли — одна логика</h2>
+        <p>4 года в IT и 4 года преподавания истории — это два разных опыта, и я их не смешиваю. Начинал с обучения пользователей и сопровождения ключевых клиентов, затем добавил инженерию данных и магистратуру по ИИ, а педагогику продолжил уже в ИТ. Выберите роль — покажу, что умею именно в ней.</p>
       </div>
 
       <div class="tabs" role="tablist" aria-label="Роли">
         <button class="tab" role="tab" id="tab-de" aria-controls="panel-de" aria-selected="true" data-role="de">Data Engineer</button>
-        <button class="tab" role="tab" id="tab-pm" aria-controls="panel-pm" aria-selected="false" tabindex="-1" data-role="pm">Product Manager</button>
-        <button class="tab" role="tab" id="tab-ba" aria-controls="panel-ba" aria-selected="false" tabindex="-1" data-role="ba">Business Analyst</button>
+        <button class="tab" role="tab" id="tab-am" aria-controls="panel-am" aria-selected="false" tabindex="-1" data-role="am">Ведущий аккаунт-менеджер</button>
+        <button class="tab" role="tab" id="tab-ba" aria-controls="panel-ba" aria-selected="false" tabindex="-1" data-role="ba">Бизнес-аналитик</button>
+        <button class="tab" role="tab" id="tab-teach" aria-controls="panel-teach" aria-selected="false" tabindex="-1" data-role="teach">Преподаватель</button>
       </div>
 
       <div class="role-panel" id="panel-de" role="tabpanel" aria-labelledby="tab-de" data-print-title="Data Engineer">
@@ -1133,7 +1159,7 @@
         </aside>
       </div>
 
-      <div class="role-panel" id="panel-pm" role="tabpanel" aria-labelledby="tab-pm" data-print-title="Product Manager" hidden>
+      <div class="role-panel" id="panel-am" role="tabpanel" aria-labelledby="tab-am" data-print-title="Ведущий аккаунт-менеджер" hidden>
         <div>
           <h3>Соединяю клиента, продукт и команду</h3>
           <p>
@@ -1143,31 +1169,32 @@
           </p>
           <ul class="checks">
             <li>Сопровождение <strong>6 ключевых агрохолдингов</strong>: Агротерра, Щёлково Агрохим, СоюзСемСвекла, Агро-Инновации, Боровская птицефабрика, Степь</li>
+            <li>Обучение пользователей платформы: вебинары, индивидуальные консультации, онлайн и офлайн</li>
             <li>Сбор требований: интервью, BPMN, технические ТЗ, задачи в Jira и протоколы в Confluence</li>
             <li>Запуск и развитие обучающей платформы на Moodle: курсы, тесты, трекинг прогресса</li>
-            <li>Поиск UX-узких мест и участие в проектировании новых функций</li>
+            <li>Поиск UX-узких мест, работа с возражениями и участие в проектировании новых функций</li>
             <li>Технический бэкграунд: Python, SQL, Airflow — понимаю стоимость и ограничения решений</li>
           </ul>
         </div>
         <aside class="aside-card">
           <h4>Ключевые навыки</h4>
           <div class="chips">
+            <span class="chip">Клиентская аналитика</span>
             <span class="chip">BPMN</span>
             <span class="chip">Jira</span>
             <span class="chip">Confluence</span>
+            <span class="chip">ТЗ</span>
             <span class="chip">Agile</span>
             <span class="chip">Scrum</span>
-            <span class="chip">ТЗ</span>
-            <span class="chip">Клиентская аналитика</span>
-            <span class="chip">Moodle</span>
-            <span class="chip">SQL</span>
             <span class="chip">UX-исследования</span>
+            <span class="chip">SQL</span>
+            <span class="chip">Moodle</span>
           </div>
-          <p class="aside-note">Умею объяснять сложное просто: от руководителей агрохолдингов до агрономов и диспетчеров.</p>
+          <p class="aside-note">Ведущий менеджер по обучению / ведущий аккаунт-менеджер в ГеомирАгро: от первого вебинара до доработки продукта по обратной связи.</p>
         </aside>
       </div>
 
-      <div class="role-panel" id="panel-ba" role="tabpanel" aria-labelledby="tab-ba" data-print-title="Business Analyst" hidden>
+      <div class="role-panel" id="panel-ba" role="tabpanel" aria-labelledby="tab-ba" data-print-title="Бизнес-аналитик" hidden>
         <div>
           <h3>Описываю процесс так, чтобы его поняли все</h3>
           <p>
@@ -1198,13 +1225,46 @@
           <p class="aside-note">Есть опыт и полной занятости, и проектной работы — открыт к разным форматам.</p>
         </aside>
       </div>
+
+      <div class="role-panel" id="panel-teach" role="tabpanel" aria-labelledby="tab-teach" data-print-title="Преподаватель" hidden>
+        <div>
+          <h3>Учу так, чтобы человек смог сам</h3>
+          <p>
+            4 года преподавания истории научили главному: разбирать сложное на понятные шаги и держать
+            мотивацию. Сейчас переношу это в ИТ — веду практику по программированию у подростков
+            14–19 лет по программе «Код будущего» в Maximum Education и развиваю корпоративное
+            обучение в продуктовой компании.
+          </p>
+          <ul class="checks">
+            <li><strong>«Код будущего» в Maximum Education</strong>: практические занятия по программированию для подростков 14–19 лет</li>
+            <li>3+ года в корпоративном обучении: вебинары, консультации, онбординг новых сотрудников</li>
+            <li>Полный цикл материалов: курсы, методички, тесты, обучающие видео и монтаж</li>
+            <li>Администрирование LMS Moodle: загрузка курсов, настройка тестов, трекинг прогресса</li>
+            <li>4 года репетиторства по истории: подготовка к ОГЭ/ЕГЭ, индивидуальные программы, работа с мотивацией</li>
+          </ul>
+        </div>
+        <aside class="aside-card">
+          <h4>Инструменты</h4>
+          <div class="chips">
+            <span class="chip">LMS Moodle</span>
+            <span class="chip">Методика</span>
+            <span class="chip">Педагогический дизайн</span>
+            <span class="chip">Вебинары</span>
+            <span class="chip">Видеоуроки</span>
+            <span class="chip">Онбординг</span>
+            <span class="chip">Python</span>
+            <span class="chip">SQL</span>
+          </div>
+          <p class="aside-note">Умею объяснять сложное просто — от руководителей агрохолдингов и агрономов до школьников 14–19 лет.</p>
+        </aside>
+      </div>
     </section>
 
     <section class="wrap reveal" aria-label="Ключевые цифры">
       <div class="stats">
-        <div class="stat"><b>7+ лет</b><span>опыта в IT, обучении и работе с клиентами</span></div>
+        <div class="stat"><b>4 года</b><span>в IT: данные, продукт и работа с клиентами</span></div>
+        <div class="stat"><b>4 года</b><span>преподавания истории — до перехода в IT</span></div>
         <div class="stat"><b>6</b><span>ключевых клиентов на сопровождении</span></div>
-        <div class="stat"><b>3</b><span>направления: данные, продукт, аналитика</span></div>
         <div class="stat"><b>2</b><span>диплома: история и искусственный интеллект</span></div>
       </div>
     </section>
@@ -1213,14 +1273,30 @@
       <div class="sec-head">
         <span class="eyebrow">Опыт</span>
         <h2>Где и что делал</h2>
-        <p>Хронология из резюме: текущая роль в продуктовой IT-компании, стажировка в Data Engineering и преподавание.</p>
+        <p>4 года в IT и 4 года преподавания истории — две отдельные линии, ниже видно, где какая. Reksoft шёл параллельно с основной работой.</p>
       </div>
 
       <div class="timeline">
         <article class="job">
           <div class="job-top">
+            <h3>Maximum Education</h3>
+            <span class="when">2026 — сейчас · преподавание</span>
+          </div>
+          <p class="role">Преподаватель программирования · программа «Код будущего» · удалённо</p>
+          <ul>
+            <li>Веду практические занятия по программированию для подростков <strong>14–19 лет</strong> в рамках федеральной программы «Код будущего».</li>
+            <li>Объясняю базу программирования и алгоритмов, разбираю задачи и помогаю доводить учебные проекты до результата.</li>
+            <li>Адаптирую материал под разный уровень группы и поддерживаю мотивацию учеников.</li>
+          </ul>
+          <div class="tags">
+            <span class="tag">Код будущего</span><span class="tag">программирование</span><span class="tag">наставничество</span><span class="tag">Python</span>
+          </div>
+        </article>
+
+        <article class="job">
+          <div class="job-top">
             <h3>ГеомирАгро</h3>
-            <span class="when">февраль 2023 — сейчас · 3 года 10 месяцев</span>
+            <span class="when">февраль 2023 — сейчас · 3 года 10 месяцев · IT</span>
           </div>
           <p class="role">Ведущий менеджер по обучению / Ведущий аккаунт-менеджер · Москва</p>
           <ul>
@@ -1239,9 +1315,9 @@
         <article class="job">
           <div class="job-top">
             <h3>Reksoft</h3>
-            <span class="when">октябрь 2024 — март 2025 · 6 месяцев</span>
+            <span class="when">октябрь 2024 — март 2025 · 6 месяцев · IT</span>
           </div>
-          <p class="role">Стажёр, Data Engineering · Саратов</p>
+          <p class="role">Стажёр, Data Engineering · Саратов · параллельно с работой в ГеомирАгро</p>
           <ul>
             <li>Реализовал ETL-процессы: извлечение из CSV/Excel, трансформация на Python, загрузка в PostgreSQL.</li>
             <li>Проектировал концептуальные и логические модели данных: звезда, снежинка, Data Vault.</li>
@@ -1258,9 +1334,9 @@
         <article class="job">
           <div class="job-top">
             <h3>Репетитор по истории</h3>
-            <span class="when">январь 2019 — январь 2023 · 4 года 1 месяц</span>
+            <span class="when">январь 2019 — январь 2023 · 4 года 1 месяц · преподавание</span>
           </div>
-          <p class="role">Частная практика</p>
+          <p class="role">Частная практика · не IT</p>
           <ul>
             <li>Готовил школьников и студентов к ОГЭ и ЕГЭ, строил индивидуальные программы под уровень и цели ученика.</li>
             <li>Разрабатывал учебные материалы и тренировочные задания, отслеживал прогресс и корректировал траекторию.</li>
@@ -1314,7 +1390,23 @@
             <span class="chip">Scrum</span>
             <span class="chip">Технические ТЗ</span>
             <span class="chip">Клиентская аналитика</span>
-            <span class="chip">Moodle</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h17M4 12h17M4 19h9"/><circle cx="7" cy="5" r="1.6"/><circle cx="11" cy="12" r="1.6"/><circle cx="15" cy="19" r="1.6"/></svg>
+            Обучение и методика
+          </h3>
+          <div class="chips">
+            <span class="chip">LMS Moodle</span>
+            <span class="chip">Методические материалы</span>
+            <span class="chip">Вебинары</span>
+            <span class="chip">Видеоуроки и монтаж</span>
+            <span class="chip">Онбординг</span>
+            <span class="chip">Педагогический дизайн</span>
+            <span class="chip">Оценка прогресса</span>
+            <span class="chip">Код будущего</span>
           </div>
         </div>
 
@@ -1341,7 +1433,7 @@
       <div class="sec-head">
         <span class="eyebrow">Проекты</span>
         <h2>Что можно посмотреть в коде</h2>
-        <p>Не только резюме: реальные репозитории, где видно, как я проектирую данные, запросы и приложения.</p>
+        <p>Не только резюме: реальные репозитории, где видно, как я проектирую данные, запросы, ML-сервисы и приложения.</p>
       </div>
 
       <div class="projects">
@@ -1379,6 +1471,45 @@
             <span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">оконные функции</span>
           </div>
           <a class="link" href="https://github.com/VVKruglov/sql_scripts" target="_blank" rel="noopener noreferrer">
+            Открыть репозиторий
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </article>
+
+        <article class="project">
+          <span class="kicker">ML · FastAPI · Docker</span>
+          <h3>«АгроПрогноз» — урожайность</h3>
+          <p>ML-система прогноза урожайности по 10 культурам: модели XGBoost, объяснение прогнозов через SHAP, REST API на FastAPI, интерфейс на Streamlit, PostgreSQL и Docker.</p>
+          <div class="chips">
+            <span class="chip">XGBoost</span><span class="chip">SHAP</span><span class="chip">FastAPI</span><span class="chip">PostgreSQL</span><span class="chip">Streamlit</span>
+          </div>
+          <a class="link" href="https://github.com/VVKruglov/forecasting_yields" target="_blank" rel="noopener noreferrer">
+            Открыть репозиторий
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </article>
+
+        <article class="project">
+          <span class="kicker">Python · Telegram</span>
+          <h3>ФлораЗефир — Telegram-бот</h3>
+          <p>Бот для магазина зефирных композиций: каталог товаров, акции, состав и доставка. Инлайн- и reply-клавиатуры, понятный сценарий заказа без лишних шагов.</p>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">python-telegram-bot</span><span class="chip">API</span>
+          </div>
+          <a class="link" href="https://github.com/VVKruglov/FloraZephyr_bot" target="_blank" rel="noopener noreferrer">
+            Открыть репозиторий
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+          </a>
+        </article>
+
+        <article class="project">
+          <span class="kicker">Python · MCDA</span>
+          <h3>Алгоритмы принятия решений</h3>
+          <p>Реализации методов многокритериального выбора ELECTRE и TOPSIS, а также генетический алгоритм для задачи о рюкзаке — написаны с нуля, без готовых библиотек.</p>
+          <div class="chips">
+            <span class="chip">Python</span><span class="chip">ELECTRE</span><span class="chip">TOPSIS</span><span class="chip">генетический алгоритм</span>
+          </div>
+          <a class="link" href="https://github.com/VVKruglov/exercises" target="_blank" rel="noopener noreferrer">
             Открыть репозиторий
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
           </a>
@@ -1428,7 +1559,7 @@
     <section class="wrap reveal" id="contact">
       <div class="contact-card">
         <h2>Обсудим роль или проект?</h2>
-        <p>Открыт к предложениям на позиции Data Engineer, Product Manager и Business Analyst. Формат — удалённо, полная занятость; для аналитики готов и к проектной работе.</p>
+        <p>Открыт к предложениям на позиции Data Engineer, ведущего аккаунт-менеджера, бизнес-аналитика и преподавателя ИТ. Формат — удалённо: полная занятость в IT-ролях, частичная или проектная — в преподавании.</p>
         <div class="contact-grid">
           <a class="btn btn-primary" href="mailto:vvkruglov97@yandex.ru">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg>
@@ -1567,7 +1698,6 @@
       });
 
       document.getElementById("printBtn").addEventListener("click", function () {
-        selectRole(0, false);
         window.print();
       });
 
